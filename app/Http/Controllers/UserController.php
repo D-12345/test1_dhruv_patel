@@ -41,7 +41,6 @@ class UserController extends Controller
             'email'=> 'required|email|unique:users',
             'contact_number'=>'required|unique:users',
             'city'=>'required',
-            /*'password'=> 'required|alpha_num|max:15|min:8',*/
             'gender'=>'required',
             
             'profile_photo' => 'required|mimes:jpeg,bmp,png|max:1048',
